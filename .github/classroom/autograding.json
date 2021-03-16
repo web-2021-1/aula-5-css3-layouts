@@ -1,0 +1,144 @@
+{
+  "tests": [
+    {
+      "name": "[exe1.html] Há um link para o arquivo exe1.css",
+      "setup": "",
+      "run": "grep -Piq \"(?=.*?link)(?=.*?rel.*stylesheet)(?=.*?href.*exe1.css).*\" exe1.html",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe1.html] Define a largura como 200px",
+      "setup": "",
+      "run": "grep -Piq \"width: (?=.*?200px).*\" exe1.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe1.html] alinha o texto na direita",
+      "setup": "",
+      "run": "grep -Piq \"text-align: (?=.*?right).*\" exe1.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe1.html] alinha o texto no centro horizontal",
+      "setup": "",
+      "run": "grep -Piq \"text-align: (?=.*?center).*\" exe1.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe1.html] Preenche uma caixa com 50 pixels adicionais",
+      "setup": "",
+      "run": "grep -Piq \"padding: (?=.*?50px).*\" exe1.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe1.html] Deixa uma borda de 2 pixel preta e solid",
+      "setup": "",
+      "run": "grep -Piq \"border: (?=.*?2px)(?=.*?solid)(?=.*?black).*\" exe1.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe1.html] Deixa um espaço de 5 pixels entre as caixas",
+      "setup": "",
+      "run": "grep -Piq \"margin: (?=.*?5px).*\" exe1.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe1.html] Possui float: left",
+      "setup": "",
+      "run": "grep -Piq \"float: (?=.*?left).*\" exe1.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe2.html] Há um link para o arquivo exe2.css",
+      "setup": "",
+      "run": "grep -Piq \"(?=.*?link)(?=.*?rel.*stylesheet)(?=.*?href.*exe2.css).*\" exe2.html",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe2.html] Define a largura como 40%",
+      "setup": "",
+      "run": "grep -Piq \"width: (?=.*?40%).*\" exe2.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe2.html] Preenche uma caixa com 3% adicionais",
+      "setup": "",
+      "run": "grep -Piq \"padding: (?=.*?3%).*\" exe2.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe2.html] Deixa uma borda de 2 pixel preta e solid",
+      "setup": "",
+      "run": "grep -Piq \"border: (?=.*?2px)(?=.*?solid)(?=.*?black).*\" exe2.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe2.html] Deixa um espaço de 1% entre as caixas",
+      "setup": "",
+      "run": "grep -Piq \"margin: (?=.*?1%).*\" exe2.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "[exe2.html] Possui float: left",
+      "setup": "",
+      "run": "grep -Piq \"float: (?=.*?left).*\" exe2.css",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
