@@ -1,0 +1,31 @@
+.caixa {
+    width: 25%;
+    padding: 3%;
+    border: 2px black solid;
+    margin: 1%;
+    float: left;
+    display: block;
+    border-radius: 20px;
+}
+
+/* Adicione uma media query com max-width: 500px para este bloco */
+.caixa {
+    width: 40%;
+    padding: 3%;
+    border: 2px black solid;
+    margin: 1%;
+    float: left;
+    display: block;
+    border-radius: 20px;
+}
+
+/* Adicione uma media query com max-width: 992px para este bloco */
+.caixa {
+    width: 90%;
+    padding: 3%;
+    border: 2px black solid;
+    margin: 1%;
+    float: left;
+    display: block;
+    border-radius: 20px;
+}

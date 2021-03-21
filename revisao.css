@@ -1,0 +1,60 @@
+/*
+    Este arquivo possui alguns estilos para o arquivo revisao.html
+    O resultado de aplicar os estilos corretamente está na imagem revisao.jpg
+    
+    Siga as instruções sobre cada um dos blocos de CSS para completar o arquivo
+*/
+
+body {
+    margin: 0;
+}
+
+/* Escreva um seletor que traz apenas a <div> que contém o título da página neste bloco */
+seletor-1 {
+    width: 28%;
+    float: left;
+    background-color: black;
+    height: 75px;
+    padding-left: 1%;
+    padding-right: 1%;
+    color: white;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+/* Escreva um seletor que traz apenas a <div> que contém os links de menu neste bloco */
+seletor-2 {
+    margin: 0;
+    color: white;
+    width: 70%;
+    height: 60px;
+    padding-top: 15px;
+    float: left;
+    background-color: black;
+}
+
+/* Escreva um seletor que traz apenas a <div> que contém o conteúdo da página neste bloco */
+seletor-5 {
+    margin: 0;
+    float: left;
+    width: 80%;
+    text-align: center;
+    padding: 5%;
+    border: 1px black solid;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+/* Escreva um seletor que traz todos os <li> que fazem parte do menu neste bloco */
+seletor-3 {
+    margin-right: 20px;
+    float: left;
+    list-style-type: none;
+}
+
+/* Escreva um seletor que traz todos os <a> que fazem parte do menu neste bloco */
+seletor-4 {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
